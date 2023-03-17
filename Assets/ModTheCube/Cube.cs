@@ -15,7 +15,7 @@ public class Cube : MonoBehaviour
     float randomR, randomG, randomB, randomA;
     void Start()
     {
-
+        Debug.Log("ModeTheCube");
         InvokeRepeating("SpawnTheCubeRandomly", 0.5f, 0.5f);
         transform.position = new Vector3(3, 4, 1);
         transform.localScale = Vector3.one * 1.3f;
